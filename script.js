@@ -102,7 +102,7 @@ function crearSelectorColor(color) {
     selector.classList.add('selector-color');
     selector.style.backgroundColor = color;
     console.log(color);
-
+    selector.textContent = color + ': ' +codigosColores[color];
     selector.addEventListener('click', click => {
 
         if (coloresSeleccionados.length === numeroBandas) {

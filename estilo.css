@@ -54,7 +54,6 @@ body {
 
 .seleccionado {
     border: 2px solid black;
-    cursor: auto;
     
 }
 .hidden{
@@ -65,7 +64,6 @@ body {
 }
 .centered{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
