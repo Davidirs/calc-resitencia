@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+}
+
+#contenedor-seleccion {
+    margin-bottom: 20px;
+}
+
+#bandas {
+    padding: 5px;
+}
+
+#selectores-color {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selector-color {
+    margin: 5px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bandas-color {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    background-image: url(resistencia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+}
+
+.banda-color {
+    height: 70px;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+#contenedor-resultado {
+    text-align: center;
+}
+
+#valor-resistencia,
+#tolerancia {
+    font-weight: bold;
+}
+
+.seleccionado {
+    border: 2px solid black;
+    cursor: auto;
+    
+}
+.hidden{
+    visibility: hidden;
+    opacity: .1;
+    border: 2px solid red;
+    cursor: auto;
+}
+.centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

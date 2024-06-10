@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de código de colores para resistencias</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <h1>Calculadora de código de colores para resistencias</h1>
+    <center>
+
+        <div id="contenedor-seleccion">
+            <label for="bandas">Número de bandas:</label>
+            <select id="bandas">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button onclick="actualizarTabla()">Reiniciar</button>
+            <div id="selectores-color">
+            </div>
+        </div>
+    </center>
+
+    <div id="bandas-color">
+    </div>
+
+    <div id="contenedor-resultado">
+        <h2>Resultado</h2>
+        <p>Valor de la resistencia: <span id="valor-resistencia"></span> Ω</p>
+        <p>Tolerancia: <span id="tolerancia"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
